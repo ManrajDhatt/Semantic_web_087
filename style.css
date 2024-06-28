@@ -1,23 +1,25 @@
 button{
-    width: 250px;
+    width: 200px;
     height: 70px;
     border-radius: 5px;
     background-color:rgb(12, 221, 225);
     box-shadow: 5px 4px 10px rgb(13, 14, 13);
     color:rgb(14, 15, 15);
     font-size: x-large;
+
 }
 
 body{
     background-color: darkgray;
     margin-left: 100px;
+    /* font-size: small; */
 }
 header{
     margin-top: 70px;
 }
 h1{
     background-color: coral;
-    font-size:80px;
+    font-size:60px;
     width: 1170px;
     height: 100px;
     

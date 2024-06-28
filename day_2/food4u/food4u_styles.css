@@ -14,8 +14,19 @@
     background-image: linear-gradient(to bottom right,rgb(214, 217, 31),rgb(201, 225, 199));
 }
 
-.center_content{
-    background-color: azure;
+.section2{
+    background-color: rgb(228, 239, 239);
+    display:flex ;
+    flex-direction:column;
+}
+.section2 h1{
+    flex:1;
+    text-align:center;
+    font-size:50px;
+    background: linear-gradient(black,grey);
+    /* color:linear-gardient(black,grey) */
+    /* display: flex; */
+    /* margin: auto; */
 }
 .ordernow_button button{
     width: 190px;
