@@ -1,12 +1,14 @@
-button{
-    width: 150px;
-    height: 50px;
+a{
+    width: 200px;
+    height: 70px;
     border-radius: 5px;
     box-shadow: 5px 4px 10px rgb(13, 14, 13);
-
+    text-decoration: none;
     background-color:rgb(12, 221, 225);
     color:rgb(14, 15, 15);
-    font-size: x-large;
+    font-size: xx-large;
+    text-align: center;
+    align-content: center;
 
 }
 button:hover{
@@ -39,7 +41,7 @@ h1{
     
 }
 
-.gridd button:hover{
+.gridd a:hover{
     color: azure;
     background-color: rgb(238, 147, 90);
     outline-offset: 10px;
@@ -59,6 +61,8 @@ h1{
     /* grid-area: 100px; */
     /* column-gap: 5px; */
     row-gap: 50px;
+    align-items: center;
+    padding-left: 200px;
 
 }
 
